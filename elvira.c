@@ -1,3 +1,4 @@
+// For code minimalism im not making comments anymore xD
 #include <ncurses.h>
 #include <stdlib.h>
 #include <string.h>
