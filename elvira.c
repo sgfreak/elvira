@@ -1,4 +1,10 @@
 // For code minimalism im not making comments anymore xD
+// Extremely condensed and REPROVED legibility for smol code size
+// To do: navigation with arrows (only hjkl supported right now)
+// In comparison with Busybox "vi" clone that has 5051 lines and same usability
+// But elvira uses ncurses, so it doesnt guarantee compatibility with every system or/ initramfs shells
+// i plan to improve the old version (in github project history) because it does not use lib ncurses (just termios but it was sucky)
+// If i change my mind i would probably ignore code size and turn this into an actual complete vi clone or even try to do some vim stuff
 #include <ncurses.h>
 #include <stdlib.h>
 #include <string.h>
